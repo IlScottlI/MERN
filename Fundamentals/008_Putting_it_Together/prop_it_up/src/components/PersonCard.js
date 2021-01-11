@@ -8,6 +8,7 @@ class PersonCard extends Component {
         }
     }
     increaseAge = (item) => {
+        console.log('Good')
         let localUsers = JSON.parse(localStorage.getItem('users'));
         localUsers.map((e) => {
             if (e.id == item.target.id) {

@@ -7,7 +7,9 @@ However, Webpack is not the focus of this React workshop. We'll instead lean on 
 ## create-react-app
 Using this starter kit is as simple as running the following command in your terminal:
 
-`npx create-react-app your-project-name-here` (NOTE: `npx` is not a typo! npx comes with npm version 5.2+ and higher)
+`npx create-react-app your-project-name-here` 
+
+(NOTE: `npx` is not a typo! npx comes with npm version 5.2+ and higher)
 
 Once the project is created, we can simply navigate into the newly-created project folder and run
 
