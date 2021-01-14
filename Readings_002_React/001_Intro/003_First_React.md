@@ -32,4 +32,7 @@ After we define the `App` method, we call `ReactDOM.render`. We are telling Reac
 We have just written our first React project. If you open your index.html, you should briefly see "First React page rendering..." before seeing "Our First React page has rendered". Our browser will first show the html we have written. 
 
 Then, after the React scripts load, our browser executes the script that will call the method `ReactDOM.render`. This method will overwrite what we originally had in the div with id `root` with an `h1` that contains "Our First React page has rendered". If you continue to refresh your page, you can see it quickly change. Congratulations! You have created your first React project.
-
+#
+## [Previous](./002_Using_React.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./004_syntactic_sugar.md)
+#
+##  [Index](../../Index.md)

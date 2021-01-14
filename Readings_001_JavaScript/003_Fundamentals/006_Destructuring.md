@@ -102,3 +102,7 @@ const { addresses: [ , , , , { city: london }] } = person;
 The above example will produce an error. We skipped so many addresses that the final position doesn't have an address object. Attempting to destructure from `undefined` or `null` throws: `TypeError: Cannot destructure property 'city' of 'undefined' or 'null'`.
 <hr>
 Destructuring simplifies extracting information from objects and arrays, allowing for a cleaner, more succinct codebase. We're not done learning about destructuring but we need to understand a couple other features before we can fully utilize it.
+#
+## [Previous](./005_Hoisting_Activity.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./007_Rest_Spread.md)
+#
+##  [Index](../../Index.md)

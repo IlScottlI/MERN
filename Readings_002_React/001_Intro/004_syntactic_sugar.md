@@ -69,8 +69,13 @@ Pretty neat, eh? You get to write HTML-like code in JavaScript, and then, in the
 
 __IMPORTANT: When we create a project via create-react-app, we are installing React. Within our React files, when we write `import React from 'react'`, we can write in JSX within that file without needing to add any extra dependencies.__
 
-<hr>
+#
 
 ## Additional Resources
 *   [JSX in depth](https://reactjs.org/docs/introducing-jsx.html) - A deeper dive into JSX
 *   [Babel Translator](https://babeljs.io/repl) - Shows how JSX is transpiled into regular JavaScript using Babel
+
+#
+## [Previous](./003_First_React.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./005_create-react-app.md)
+#
+##  [Index](../../Index.md)

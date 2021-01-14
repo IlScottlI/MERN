@@ -31,3 +31,8 @@ At the end of the day, remember: 100% of all bugs you encounter were created by 
 *   When hunting syntax errors, typically the actual problem is before the line that errored. Work backwards from there.
 *   Console.log everything! Often times the biggest errors come from faulty assumptions. That variable you thought was a string was actually an array of strings, which can completely change your logic.
 *   Run your code early and often, especially at first. If you're writing 20 or 30 lines of JavaScript at a time before seeing if any of it works, you're coding too much! The stronger you get with JS, the more assumptions you can make, but at first assume nothing!
+#
+## [Previous](./001_Javascritp_Overview.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./003_Scope.md)
+
+#
+##  [Index](../../Index.md)

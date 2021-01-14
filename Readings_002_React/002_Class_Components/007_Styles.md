@@ -81,3 +81,7 @@ class MyButton extends Component {
 export default MyButton;
 ```
 Note that the name of the CSS file needs to end in "module.css" for this to work. Importing the styles gives us an object with all the different classes as key names. A small drawback of CSS Modules is that class names cannot be hyphenated, so by convention, camel casing is used. Two big advantages of CSS Modules are that (1) you can use media queries in them as usual, and (2) they are completely encapsulated at the component level. If you have another component using a different "myButton" class, there is no conflict between them, as the class names are given unique hashes at build time to keep them isolated.
+#
+## [Previous](./006_Lifecycle_Methods.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./008_CSS_in_JS.md)
+#
+##  [Index](../../Index.md)

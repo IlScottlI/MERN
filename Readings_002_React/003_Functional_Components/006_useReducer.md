@@ -59,3 +59,8 @@ Let's step through this piece by piece. We import the useReducer hook from React
 Inside our functional component, we invoke the useReducer function by passing in our reducer function and the initialState object. Next, we create a handleChange function which takes in an event. Inside the function body, we destructure the name and value from the event's target, which will be one of the inputs. Then, we call the dispatch function (returned when we invoked the useReducer hook) by passing it an object with a type equal to the input's name and a payload equal to the input's new value.
 
 Finally, we render some JSX. Inside opening and closing div tags, we have stringified our state object to easily keep track of it, and we have individual divs for the two inputs. Each input has three attributes: its name, its value (taken from the state object), and an onChange function, which is the handleChange function we established earlier.
+#
+
+## [Previous](./005_Conditional_Rendering.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./007_Iterating_with_map.md)
+#
+##  [Index](../../Index.md)
