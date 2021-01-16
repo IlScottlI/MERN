@@ -61,3 +61,14 @@
 *   ## [Lifting State](./Readings_002_React/003_Functional_Components/008_Lifting_State.md)
 *   ## [Extra Callback Parameters](./Readings_002_React/003_Functional_Components/009_Sending_Arguments_in_Callbacks.md)
 *   ## [Other Input Types](./Readings_002_React/003_Functional_Components/010_Other_Input_Types.md)
+* ## [Context API](./Readings_002_React/003_Functional_Components/011_Context_API.md)
+* ## [Context with State](./Readings_002_React/003_Functional_Components/012_Context_with_State.md)
+* ## [Render Props](./Readings_002_React/003_Functional_Components/013_Render_Props.md)
+* ## [Custom Hooks](./Readings_002_React/003_Functional_Components/014_Custom_Hooks.md)
+## APIs
+* ## [About Promises](./Readings_002_React/004_APIs/001_About_Promises.md)
+* ## [Intro to Rest APIs](./Readings_002_React/004_APIs/002_Intro_to_Rest_APIs.md)
+* ## [Consuming APIs](./Readings_002_React/004_APIs/003_Consuming_APIs.md)
+* ## [useEffect](./Readings_002_React/004_APIs/004_useEffect.md)
+* ## [Axios](./Readings_002_React/004_APIs/005_Axios.md)
+## React Routing
