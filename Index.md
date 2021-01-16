@@ -72,3 +72,6 @@
 * ## [useEffect](./Readings_002_React/004_APIs/004_useEffect.md)
 * ## [Axios](./Readings_002_React/004_APIs/005_Axios.md)
 ## React Routing
+* ## [What is Routing?](./Readings_002_React/005_React_Routing/001_What_is_Routing.md)
+* ## [Reach Router](./Readings_002_React/005_React_Routing/002_Reach_Router.md)
+* ## [Routing with Parameters](./Readings_002_React/005_React_Routing/003_Routing_with_Parameters.md)
