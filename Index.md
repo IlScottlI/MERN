@@ -103,7 +103,7 @@
 * ## [List and Detail]()
 * ## [Update and Delete]()
 * ## [Looking Ahead]()
-  ## Advanced MERN
+# Advanced MERN
 * ## [Overview]()
 * ## [Reusing Components]()
 * ## [Reusing Components (Part II)]()
