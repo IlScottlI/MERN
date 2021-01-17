@@ -1,0 +1,9 @@
+#   What is an API?
+An API (Application Programming Interface) in a general sense is a contract that governs how different parts of an application interact. A web API, which is what we'll be focusing on, is neither a server nor a database; rather, it is a set of HTTP endpoints and the rules we need to follow to both retrieve data from and make changes to resources through the service. You can think of web APIs as middlemen for our web apps; they sit in between our frontend code and the actual databases backing them.
+
+API endpoints are usually web URLs where you can pass information either through the URL or in the body of the request and the server returns JSON (or an alternative structured data format such as XML). Express will be our API that serves our index.html page but also returns JSON data to our front end framework. Our ultimate goal is to have React (or any front end framework) handle everything on the client end and not have to worry about any database operations that could slow it down.
+
+#
+## [Previous](./../Readings_002_React/005_React_Routing/003_Routing_with_Parameters.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./002_Postman.md)
+#
+##  [Index](../../Index.md)
