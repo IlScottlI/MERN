@@ -93,6 +93,7 @@
 * ## [Common Mongoose Commands](./Readings_004_MongoDB/008_Common_Mongoose_Commands.md)
 * ## [Validations](./Readings_004_MongoDB/009_Validations.md)
 * ## [Nested Documents](./Readings_004_MongoDB/010_Nested_Documents.md)
+* ## [Using MongoDB](./Readings_004_MongoDB/011_Using_MongoDB.md)
 # Full Stack MERN
 * ## [Introduction]()
 * ## [Setting up MERN]()
