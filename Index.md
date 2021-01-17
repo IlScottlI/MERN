@@ -76,7 +76,6 @@
 * ## [Reach Router](./Readings_002_React/005_React_Routing/002_Reach_Router.md)
 * ## [Routing with Parameters](./Readings_002_React/005_React_Routing/003_Routing_with_Parameters.md)
 # React Express
-## Express
 * ## [What is an API?](./Readings_003_Express/001_What_is_an_API.md)
 * ## [Postman](./Readings_003_Express/002_Postman.md)
 * ## [HTTP Verbs](./Readings_003_Express/003_HTTP_Verbs.md)
