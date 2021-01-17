@@ -1,9 +1,10 @@
 import React from "react";
 import NumericInput from "react-numeric-input";
+import { Link } from '@reach/router';
 
 export default function NavBar(props) {
   const handleForm = (e) => {
-    e.preventDefault();
+    props.setGetResult(!props.getResult)
   };
 
   return (
@@ -26,7 +27,7 @@ export default function NavBar(props) {
             <label className="text-secondary mr-3">Search for:</label>
             <select
               className="form-control bg-lightgray"
-              defaultValue={props.selectedResource}
+              value={props.selectedResource}
               onChange={(e) => {
                 props.setSelectedResource(e.target.value);
               }}
@@ -49,9 +50,13 @@ export default function NavBar(props) {
                 props.setResourceId(e);
               }}
             />
-            <button className="btn btn-primary ml-3 pl-3 pr-3" type="submit">
+            <Link 
+                className="btn btn-primary ml-3 pl-3 pr-3" 
+                type="button" 
+                to={`/${props.selectedResource}/${props.resourceId}`} 
+                onClick={handleForm}>
               Search
-            </button>
+            </Link>
           </form>
         </div>
       </div>
