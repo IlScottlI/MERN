@@ -82,8 +82,9 @@ The last part of CRUD is delete. Let's look at how to do that.
 We will add a route:
 ```js
 app.delete('/api/people/:id', PersonController.deletePerson);
+```
 And then a method to our controller:
-
+```js
 module.exports.deletePerson = (request, response) => {
     Person.deleteOne({ _id: request.params.id })
         .then(deleteConfirmation => response.json(deleteConfirmation))

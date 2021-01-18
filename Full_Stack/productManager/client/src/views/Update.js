@@ -1,20 +1,29 @@
-import React, { useState } from "react";
-import AlertDismissible from "./AlertDismissible";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./Product.css";
-export default () => {
+import { Link } from "@reach/router";
+import AlertDismissible from "../components/AlertDismissible";
+import "../components/Product.css";
+export default (props) => {
+  const { id } = props;
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
-  const [description, setDescription] = useState("");
   const [show, setShow] = useState(false);
+  const [description, setDescription] = useState("");
   const [variant, setVariant] = useState("success");
   const [message, setMessage] = useState("");
   const [header, setHeader] = useState("");
   const [showClose, setShowClose] = useState(false);
-  const onSubmitHandler = (e) => {
+  useEffect(() => {
+    axios.get("http://localhost:8000/api/product/" + id).then((res) => {
+      setTitle(res.data.title);
+      setPrice(res.data.price);
+      setDescription(res.data.description);
+    });
+  }, []);
+  const updateProduct = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/api/product", {
+      .put("http://localhost:8000/api/product/" + id, {
         title,
         price,
         description,
@@ -24,30 +33,23 @@ export default () => {
         setShowClose(false);
         setVariant("success");
         setHeader("Success");
-        setMessage(JSON.stringify(`${res.data.title} added!`));
+        setMessage(JSON.stringify(`${res.data.title} updated!`));
         setShow(true);
-        setTitle("");
-        setPrice("");
-        setDescription("");
         setTimeout(() => {
           setShow(false);
         }, 3000);
-      })
-      .catch((err) => {
-        console.log(err);
-        setVariant("danger");
-        setShow(true);
-        setHeader(err.name);
-        setMessage(err.message);
-        setShowClose(true);
       });
   };
   return (
-    <>
+    <div className="container">
+      <Link className="btn btn-primary mt-5" to={`/product/${id}`}>
+        Details
+      </Link>
+
       <div className="contact-clean">
-        <form onSubmit={onSubmitHandler}>
+        <form onSubmit={updateProduct}>
           <h1 className="text-center">Product Manager</h1>
-          <h4 className="text-center">Add Product</h4>
+          <h4 className="text-center mb-3">Update Product</h4>
           <AlertDismissible
             setShow={setShow}
             show={show}
@@ -89,11 +91,11 @@ export default () => {
           </div>
           <div className="form-group d-xl-flex justify-content-xl-end">
             <button className="btn btn-primary" type="submit">
-              CREATE
+              UPDATE
             </button>
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };

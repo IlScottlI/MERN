@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Alert, Button } from "react-bootstrap";
 
 export default function AlertDismissible(props) {

@@ -1,7 +1,19 @@
 import React from "react";
 import "./ProductList.css";
+import axios from "axios";
 import { Link } from "@reach/router";
 export default function ProductList(props) {
+  const { removeFromDom } = props;
+  const deleteProduct = (productId) => {
+    axios
+      .delete("http://localhost:8000/api/product/" + productId)
+      .then((res) => {
+        removeFromDom(productId);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
   return (
     <div>
       <ul className="list-unstyled text-center">
@@ -14,6 +26,15 @@ export default function ProductList(props) {
               >
                 {product.title}
               </Link>
+              |
+              <a
+                className="btn-sm ml-2 btn-danger"
+                onClick={(e) => {
+                  deleteProduct(product._id);
+                }}
+              >
+                Delete
+              </a>
             </li>
           );
         })}
