@@ -13,9 +13,8 @@ mongoose.connect("mongodb://localhost/crmdb", {
     .catch(err => console.log("Something went wrong when connecting to the database", err));
 ```
 We can see that we are referencing our models folder. Let's start creating a Customer Relationship Management software and make a new model, `Person`.
+### __models/person.model.js__
 ```js
-models/person.model.js
-
 const mongoose = require('mongoose');
 const PersonSchema = new mongoose.Schema({
     firstName: { type: String },
@@ -75,3 +74,7 @@ By adding this line, we can now create people by sending a post request to 'loca
 Let's look at the React side of things.
 
 
+#
+## [Previous](./003_Hello_World.md)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Next](./005_Create_(Part_II).md)
+#
+##  [Index](../Index.md)

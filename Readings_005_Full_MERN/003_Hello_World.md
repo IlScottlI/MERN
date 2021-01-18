@@ -41,8 +41,8 @@ Let's now start setting up our React project. Change directories into your React
 npm install axios
 ```
 We are installing axios so we can easily make a request to our backend. Within the `src` folder, create a new file called `Main.js`. In the `Main.js` file, we will make an api call and display our message. We will be using the `useEffect` hook in order to make the api call and save the message in state.
+### __client/src/Main.js__
 ```js
-client/src/Main.js
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 export default () => {
