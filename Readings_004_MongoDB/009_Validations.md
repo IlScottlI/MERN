@@ -28,6 +28,37 @@ What you'll notice is that the validation methods in Mongoose are pretty one-dim
 
 Here is the boilerplate code: [Schema_Validations](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/validation_schema.zip)
 
+```js
+const mongoose = require("mongoose");
+
+const UserSchema = new mongoose.Schema(
+  {
+    first_name: {
+      type: String,
+      required: [true, "First name is required"],
+      minlength: [6, "First name must be at least 6 characters long"]
+    },
+    last_name: {
+      type: String,
+      required: [true, "Last name is required"],
+      maxlength: [20, "Last name must be at least 6 characters long"]
+    },
+    age: {
+      type: Number,
+      min: [1, "You must be at least 1 or older to register"],
+      max: [150, "You must be at most 149 years old to register"]
+    },
+    email: { type: String, required: [true, "Email is required"] }
+  },
+  { timestamps: true }
+);
+
+const User = mongoose.model("User", UserSchema);
+
+module.exports = User;
+
+```
+
 Take a look at their documentation here:  [Mongoose Validations](http://mongoosejs.com/docs/validation.html)
 
 #

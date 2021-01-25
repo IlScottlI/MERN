@@ -13,8 +13,8 @@ function App(){
 }
 ```
 Then, within our Detail dog component:
+### __DetailDogComponent.js__
 ```jsx
-## DetailDogComponent.js
 
 import React from 'react';
 const DetailDogComponent = props => {
